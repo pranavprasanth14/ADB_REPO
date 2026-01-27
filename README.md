@@ -15,7 +15,7 @@ It demonstrates real-world ETL workflows using Databricks notebooks, Delta Lake 
 ---
 
 ## 📁 Repository Structure
-
+```text
 ADB_REPO/
 ├── notebooks/ # Databricks notebooks for SCD1 and SCD2 logic
 │ ├── bronze_ingest.py # Load raw/source data into Bronze layer
@@ -26,7 +26,7 @@ ADB_REPO/
 ├── configs/ # Configurations, paths, and parameters
 ├── README.md # This file
 └── requirements.txt # Python dependencies
-
+```
 
 ---
 
@@ -60,3 +60,4 @@ This project implements a **Medallion Architecture** for structured data pipelin
 Pranav Prasanth – Azure Data Engineering & Databricks enthusiast, passionate about building scalable, production-grade cloud data solutions.
 
 #AzureDatabricks #SCD1 #SCD2 #MedallionArchitecture #DeltaLake #DataEngineering #Python #PySpark
+
